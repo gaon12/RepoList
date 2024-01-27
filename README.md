@@ -25,14 +25,14 @@ pip install pykma_grid
 ## MusicQueue 🌐
 * 목적: 브라우저 드라이버를 이용하여 유튜브 영상을 차례대로 출력합니다.
 * 깃허브 주소: [https://github.com/gaon12/MusicQueue](https://github.com/gaon12/MusicQueue)
-* 간단 사용 방법: [사용 방법](https://github.com/gaon12/MusicQueue#%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95) 문단 참조
+* 간단 사용 방법: [사용 방법](https://github.com/gaon12/MusicQueue#%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95) 문단 참조csv_discordbot
 * 기타: `Node.js`의 `Puppeteer` 버전으로도 제작할 예정입니다.
 
 ## csv_discordbot 🌐
 * 목적: 기존에는 자유도는 높았지만, 단순히 사용자가 질문하면 답변하는 봇을 만들려면 각 명령어들을 일일이 입력하고, 답변도 적어 놓아야 하기 때문에 어렵고 복잡했지만, 이젠 단순히 질문과 답변하는 봇을 만들려면 `csv` 파일에 질문과 답변을 적으면 동작합니다.
 * 깃허브 주소: [https://github.com/gaon12/csv_discordbot](https://github.com/gaon12/csv_discordbot)
 * 간단 사용 방법: [준비물](https://github.com/gaon12/csv_discordbot#%EC%A4%80%EB%B9%84%EB%AC%BC) 문단 참조
-* 기타: `tsv` 파일도 사용 가능하도록 개선할 예정입니다.
+* 기타: ~~`tsv` 파일도 사용 가능하도록 개선할 예정입니다.~~ `tsv, `xls(x)`도 지원합니다. 자세한 내용은 [이슈 #2](https://github.com/gaon12/csv_discordbot/issues/2)를 참고하시기 바랍니다.
 
 ## sw_camp_git_test 🌐
 * 목적: 학교에서 배운 내용과 과제를 올려놓은 저장소입니다.
