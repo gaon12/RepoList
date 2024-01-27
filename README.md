@@ -13,26 +13,26 @@
 ## pykma_grid 🌐📦
 * 목적: `pykma_grid`는 위도와 경도를 Lambert Conformal Conic Projection을 사용하여 격자 좌표로 변환하는 파이썬 패키지입니다. 이 패키지는 [기상청 API](https://www.data.go.kr/data/15084084/openapi.do)에서 격자X, Y를 사용할 때 유용합니다.
 * 깃허브 주소: [https://github.com/gaon12/pykma_grid](https://github.com/gaon12/pykma_grid)
-* 간단 사용 방법: [https://github.com/gaon12/pykma_grid?tab=readme-ov-file#%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95](설치 방법) 문단 및 하위 문단 참조
+* 간단 사용 방법: [설치 방법](https://github.com/gaon12/pykma_grid?tab=readme-ov-file#%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95) 문단 및 하위 문단 참조
 * 기타:
   1. [pypi](https://pypi.org/project/pykma-grid/)에 등록되어 있어, 아래와 같이 `pip`로 설치 가능합니다.
-```shell
-pip install pykma_grid
-```
+  ```shell
+  pip install pykma_grid
+  ```
   2. 자바스크립트의 [kma-grid](https://github.com/gaon12/kma-grid)와 동작 방식은 동일합니다.
   3. 연산 결과가 기상청 문서의 C언어 코드 결과와 약간 다릅니다. 소숫점 정확도 및 반올림 등으로 인해 약간의 차이가 있을 수 있습니다.
 
 ## MusicQueue 🌐
 * 목적: 브라우저 드라이버를 이용하여 유튜브 영상을 차례대로 출력합니다.
 * 깃허브 주소: [https://github.com/gaon12/MusicQueue](https://github.com/gaon12/MusicQueue)
-* 간단 사용 방법: [사용 방법](https://github.com/gaon12/MusicQueue#%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95) 문단 참조csv_discordbot
+* 간단 사용 방법: [사용 방법](https://github.com/gaon12/MusicQueue#%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95) 문단 참조
 * 기타: `Node.js`의 `Puppeteer` 버전으로도 제작할 예정입니다.
 
 ## csv_discordbot 🌐
 * 목적: 기존에는 자유도는 높았지만, 단순히 사용자가 질문하면 답변하는 봇을 만들려면 각 명령어들을 일일이 입력하고, 답변도 적어 놓아야 하기 때문에 어렵고 복잡했지만, 이젠 단순히 질문과 답변하는 봇을 만들려면 `csv` 파일에 질문과 답변을 적으면 동작합니다.
 * 깃허브 주소: [https://github.com/gaon12/csv_discordbot](https://github.com/gaon12/csv_discordbot)
 * 간단 사용 방법: [준비물](https://github.com/gaon12/csv_discordbot#%EC%A4%80%EB%B9%84%EB%AC%BC) 문단 참조
-* 기타: ~~`tsv` 파일도 사용 가능하도록 개선할 예정입니다.~~ `tsv, `xls(x)`도 지원합니다. 자세한 내용은 [이슈 #2](https://github.com/gaon12/csv_discordbot/issues/2)를 참고하시기 바랍니다.
+* 기타: ~~`tsv` 파일도 사용 가능하도록 개선할 예정입니다.~~ `tsv`, `xls(x)`도 지원합니다. 자세한 내용은 [이슈 #2](https://github.com/gaon12/csv_discordbot/issues/2)를 참고하시기 바랍니다.
 
 ## sw_camp_git_test 🌐
 * 목적: 학교에서 배운 내용과 과제를 올려놓은 저장소입니다.
@@ -109,9 +109,9 @@ npm run start
 * 간단 사용 방법: [설치](https://github.com/gaon12/kma-grid#%EC%84%A4%EC%B9%98) 문단 및 하위 문단 참조
 * 기타:
   1. [npm](https://www.npmjs.com/package/kma-grid)에 등록되어 있어, 아래와 같이 `npm`으로 설치 가능합니다.
-```shell
-npm install kma-grid
-```
+  ```shell
+  npm install kma-grid
+  ```
   2. 파이썬의 [pykma_grid](https://github.com/gaon12/pykma_grid)와 동작 방식은 동일합니다.
   3. 연산 결과가 기상청 문서의 C언어 코드 결과와 약간 다릅니다. 소숫점 정확도 및 반올림 등으로 인해 약간의 차이가 있을 수 있습니다.
 
